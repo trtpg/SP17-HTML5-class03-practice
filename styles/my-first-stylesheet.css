@@ -1,0 +1,58 @@
+/* 16px == 1 rem*/
+html {
+  font-size: 16px;
+}
+h2 {
+  color:orange;
+  text-align: center;
+}
+
+.document-history {
+  background-color: yellow;
+}
+
+
+
+/* nested selector */
+.document-history p {
+  width: 50%;
+}
+
+.document-history h4 {
+  background: #FFEFD5
+}
+.amendment-body {
+  text-align: center;
+}
+
+/* . start class */
+.amendment-title {
+  color: green;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.amendment-title:hover {
+  color: rgba(63, 191, 191, 0.6);
+}
+
+.amendment-title::first-letter {
+  font-size: 5rem;
+}
+
+/* # start element? */
+#bill-of-rights {
+  font-style: italic;
+}
+.highlight {
+  background-color: red;
+}
+
+[class] {
+  font-weight: bold;
+  color: blue;
+}
+
+img {
+  width: 50%;
+}
